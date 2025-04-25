@@ -123,35 +123,242 @@
                 //   console.log("locations:", aliphone.locations);
                 //   console.log("gps:", aliphone.gps);
                 //   console.log("isNew:", isNew.gps);
-                  let odom1 = {
-                    name:"ali",
-                    surname:"Ruzmetov",
-                    age:15,
-                    can_drive:true,
-                    has_gentra:true,
-                    subjects:["english,PE"],
+                //   let odom1 = {
+                //     name:"ali",
+                //     surname:"Ruzmetov",
+                //     age:15,
+                //     can_drive:true,
+                //     has_gentra:true,
+                //     subjects:["english","PE"],
 
-                  };
-                 console.log("Ism:",odom1.name);
-                 console.log("Familyav:",odom1.surname);
-                 console.log("Yosh:",odom1.age);
-                 console.log("Hayday olami?:",odom1.can_drive);
-                 console.log("Gentrasi bormi?:",odom1.has_gentra);
-                 console.log("Fanlari:",odom1.subjects);
+                //   };
+                //   let matn = `men ${odom1.name} ${odom1.surname}$`;
+                //   console.log(matn);
                   
-                 let odom2 = {
-                    name:"behruz",
-                    surname:"Ruzmetov",
-                    age:4,
-                    can_drive:false,
-                    has_gentra:true,
-                    subjects:["english,PE"],
+                  
+// let students = ["Behruz","ali","Islombek","davlatyar","Jorabek"];
+// person1 = {
+//     name :"Behruz",
+//     surname : "Ruzmetov",
+//     age: 16,
+//     job:null,
+//     is_graduate:false,
+// }
+// person2 = {
+//     name :"ali",
+//     surname : "Ruzmetov",
+//     age: 16,
+//     job:null,
+//     is_graduate:false,
+// }
+// person3 = {
+//     name :"Islombek",
+//     surname : "Matkarimov",
+//     age: 16,
+//     job:null,
+//     is_graduate:false,
+// }
+// person4 = {
+//     name :"Davlatyar",
+//     surname : "Ruzmetov",
+//     age: 16,
+//     job:null,
+//     is_graduate:false,
+// }
+// person5 = {
+//     name :"Jorabek",
+//     surname : "Muzaffarov",
+//     age: 16,
+//     job:null,
+//     is_graduate:false,
+// }
+// console.log(students.person1);
 
-                  };
-                 console.log("Ism:",odom2.name);
-                 console.log("Familyav:",odom2.surname);
-                 console.log("Yosh:",odom2.age);
-                 console.log("Hayday olami?:",odom2.can_drive);
-                 console.log("Gentrasi bormi?:",odom2.has_gentra);
-                 console.log("Fanlari:",odom2.subjects);
-                  
+
+//  let students = [
+//      {
+//          name:"aLI",
+//          surname:"Ruzmetov",
+//          age:15,
+//      },
+// ];
+//     {
+//         name:"behruz",
+//         surname:"qutlimuroadov",
+//         age:13,
+//     },
+//     {
+//         name:"Ismoil",
+//         surname:"baxramov",
+//         age:15,
+//     },
+//     {
+//         name:"jorabek",
+//         surname:"muzzaffarov",
+//         age:12,
+//     },
+//     {
+//         name:"islombek",
+//         surname:"matkarimov",
+//         age:16,
+//     },
+// ];
+
+// for (  let i = 0; i < students.length; i++) {
+//      let matn = `${i+1}. ${students[i].name} ${students[i].surname} - yoshi ${students[i].age } da`
+//      console.log(matn);
+// }
+    
+    
+
+// }
+
+// let mahsulotlar = [
+//     {
+//         Image:"https://images.uzum.uz/cv82n3rvgbkm5ehjbf3g/t_product_540_high.jpg",
+//         tittle:"Krem",
+//         price: 60,
+//         reyting:4.9,
+//         sharh:70 
+//     },
+//     {
+//         Image:"https://images.uzum.uz/cdjjht3b3ho5lmurhut0/t_product_540_high.jpg",
+//         tittle:"mushuklar-uchun oziq ovqatlar",
+//         price:25,
+//         reyting:5,
+//         sharh:314,
+//     },
+//     {
+//         Image:"https://images.uzum.uz/cpancpfj2e4hhrn371c0/t_product_540_high.jpg",
+//         tittle:"bolalar uchun aralasdhma",
+//         price:219,
+//         reyting:5,
+//         sharh:13,
+//     },
+//     {
+//         Image:"hhttps://images.uzum.uz/cs6akt6fh2vj1qtk8iog/t_product_540_high.jpg",
+//         tittle:"botka",
+//         price:38,
+//         reyting:4.9,
+//         sharh:44,
+//     },
+//     {
+//         Image:"https://images.uzum.uz/cudkppui4n324lr772k0/t_product_540_high.jpg",
+//         tittle:"Skin naturas",
+//         price:38,
+//         reyting:4.9,
+//         sharh:945,
+//     },
+   
+    
+
+// ];
+// for (  let i = 0; i < mahsulotlar.length; i++) {
+//         let mahsul = `${i+1} ${mahsulotlar[i].Image} ${mahsulotlar[i].tittle} 
+//           ${mahsulotlar[i].price } ${mahsulotlar[i].reyting } ${mahsulotlar[i].sharh } `
+//       console.log(mahsul);
+
+// };
+
+// let text = "bu darsda metodlar bilan ishlaymiz"
+
+
+
+
+// // console.log(text.length);
+// console.log(text.at(1));
+
+
+
+
+// ---------------> bu oxirgi xarfni chiqarish metodi
+// console.log(text.at(-2));
+
+
+
+
+// ------------------> bu boshlang'ich sonlarni chiqaradi
+// console.log(text.slice(0,5));
+
+
+
+
+// ---------------------> bu ohirdan boshlab berdi
+// console.log(text.slice(-3));
+
+
+
+
+// ----------------> bu 4 indexdan keyinini chiqarib beradi
+// console.log(text.substring(4));
+
+
+
+// -----------------> bu hammasini katta harf quiladi
+// console.log(text.toUpperCase());
+
+
+
+
+// ----------------> bu hammasini kichraytirib beradi
+// console.log(text.toLowerCase ());
+
+
+
+// ---------------> bu ikkita ozgaruvchini birlashtirib beradi
+// console.log(matn.concat(" ", name));
+// let matn = "salom"
+// let name = "Abbos"
+
+
+
+// -----------> bu 15 chiqadi chunki number bilan string qoshilganda string boladi
+// console.log(1 + "5");
+
+
+
+// // ------------------> bu matndagi  boshliqni  yoqotadi
+// console.log(text.trim());
+
+
+
+// -------------------> bu boshlangich boshliqni olib tashlaydi
+// console.log(text.trimStart());
+
+
+
+// -----------------------> bu oxiridiagi boshliqni olib tashlaydi
+// console.log(text.trimEnd());
+
+// -------------> bu split ajratib beruvchi 
+// let mevalar = "olma anor shaftoli ananas banan"
+// let mevalarRohyxati = mevalar.split("")
+// console.log(mevalarRohyxati);
+
+let mevalar = [
+    {
+        name:Olma,
+    },
+    {
+        name:Anor,
+    },
+    {
+        name:shaftoli,
+    
+    },
+    {
+        name:orik,
+    },
+    {
+        name:docha,
+    },
+];
+for (  let i = 0; i < mevalar.length; i++) {
+    let mevalar = ` ${mevalar[i].name}`
+    console.log(mevalar);
+}
+
+
+
+
+
