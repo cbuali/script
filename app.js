@@ -335,28 +335,40 @@
 // let mevalarRohyxati = mevalar.split("")
 // console.log(mevalarRohyxati);
 
-let mevalar = [
-    {
-        name:Olma,
-    },
-    {
-        name:Anor,
-    },
-    {
-        name:shaftoli,
+// let mevalar = [
+//     {
+//         name:Olma,
+//     },
+//     {
+//         name:Anor,
+//     },
+//     {
+//         name:shaftoli,
     
-    },
-    {
-        name:orik,
-    },
-    {
-        name:docha,
-    },
-];
-for (  let i = 0; i < mevalar.length; i++) {
-    let mevalar = ` ${mevalar[i].name}`
-    console.log(mevalar);
-}
+//     },
+//     {
+//         name:orik,
+//     },
+//     {
+//         name:docha,
+//     },
+// ];
+// for (  let i = 0; i < mevalar.length; i++) {
+//     let mevalar = ` ${mevalar[i].name}`
+//     console.log(mevalar);
+// };
+
+
+// let text = "menda mashina bor";
+// let index = text.indexOf("mashina");
+// console.log(index);
+
+
+let text = "hello world muzaffar smichka";
+console.log(text.includes("muzaffar"));
+
+
+
 
 
 
